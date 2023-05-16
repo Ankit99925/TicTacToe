@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace&display=swap');
+
+/* body{
+    display: flex;
+    justify-content: center;
+} */
+.gamecontainer{
+    text-align: center;
+}
+.cell{
+    width: 10vw;
+    height: 20vh;
+    border: 2px solid black;
+    box-shadow: 10px 5px 5px red;
+    font-size: 50px;
+    cursor: pointer;
+    
+}
+h1{
+    text-align: center;
+    font-family: 'Bruno Ace', cursive;
+}
+.cellcontainer{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    width: 396px;
+    margin: auto;
+}
+.resetbtn{
+    width: 10vw;
+    margin: 20px 0 0 566px;
+    font-family: 'Bruno Ace', cursive;
+}
+h2{
+    text-align: center;
+    font-family: 'Bruno Ace', cursive;
+}
